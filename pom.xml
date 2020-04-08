@@ -276,7 +276,7 @@
         <repository>
             <id>bintray-nikit007-mvn-repo</id>
             <name>nikit007-mvn-repo</name>
-            <url>https://api.bintray.com/maven/nikit007/mvn-repo/embedded-kafka/;publish=1</url>
+            <url>https://api.bintray.com/maven/nikit007/mvn-repo/testcontainers/;publish=1</url>
         </repository>
     </distributionManagement>
 
