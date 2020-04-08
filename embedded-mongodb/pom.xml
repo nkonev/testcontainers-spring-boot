@@ -6,15 +6,15 @@
 
     <parent>
         <artifactId>testcontainers-spring-boot</artifactId>
-        <groupId>com.playtika.testcontainers</groupId>
-        <version>1.44</version>
+        <groupId>name.nkonev.com.playtika.testcontainers</groupId>
+        <version>1.44.3-MR</version>
     </parent>
 
     <artifactId>embedded-mongodb</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.playtika.testcontainers</groupId>
+            <groupId>name.nkonev.com.playtika.testcontainers</groupId>
             <artifactId>testcontainers-common</artifactId>
         </dependency>
         <dependency>

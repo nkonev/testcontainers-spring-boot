@@ -6,8 +6,8 @@
 
     <parent>
         <artifactId>testcontainers-spring-boot</artifactId>
-        <groupId>com.playtika.testcontainers</groupId>
-        <version>1.44</version>
+        <groupId>name.nkonev.com.playtika.testcontainers</groupId>
+        <version>1.44.3-MR</version>
     </parent>
 
     <artifactId>embedded-aerospike</artifactId>
@@ -28,7 +28,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.playtika.testcontainers</groupId>
+            <groupId>name.nkonev.com.playtika.testcontainers</groupId>
             <artifactId>testcontainers-common</artifactId>
         </dependency>
         <dependency>

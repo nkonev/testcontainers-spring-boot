@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.playtika.testcontainers</groupId>
+    <groupId>name.nkonev.com.playtika.testcontainers</groupId>
     <artifactId>testcontainers-spring-boot</artifactId>
-    <version>1.44</version>
+    <version>1.44.3-MR</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -189,7 +189,7 @@
                 <version>${testcontainers.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.testcontainers</groupId>
+                <groupId>name.nkonev.com.playtika.testcontainers</groupId>
                 <artifactId>testcontainers-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
